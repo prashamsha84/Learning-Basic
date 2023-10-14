@@ -1,0 +1,122 @@
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+/* 
+header,
+section {
+    padding: 100px 0;
+} */
+
+.container{
+    margin: 0 auto;
+    width: 570px;
+}
+
+h1,h2{
+    font-weight: 400;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    padding: 10px 0 40px 0;
+ 
+}
+h2{
+    font-size: 40px;
+    border-bottom: 1px solid rgb(168, 168, 168);
+    margin-top: 0;
+    padding: 20px 0;
+}
+h3{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+span{
+    display: block;
+    font-weight: 900;
+    color: rgb(2, 119, 84);
+}
+
+.para-txt{
+    color: darkorchid;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+
+img {
+    margin: 50px 28% ;
+    width: 40%;
+}
+
+header{
+    background-color: black;
+}
+.about{
+    background-color: white;
+}
+
+.inverse {
+    background-color: #252525;
+    color: #fff;
+    margin-bottom: 40px;
+}
+a {
+    color: rgb(52, 49, 211);
+}
+a:hover a:focus{
+    color: green;
+}
+
+
+input {
+    display: block;
+    margin: 20px 0 0;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    border-width: 1px; 
+    border-style: solid;
+    border-color:  5px;
+    color: white;
+    background: none;
+    border-radius: black;
+   
+}
+p{
+    font-size: 18px;
+    line-height: 20px;
+    
+}
+.link{
+    padding-bottom: 20px;
+}
+
+/* ::placeholder {
+    color: red;
+} */
+
+button {
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: none;
+    background: green;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: sans-serif;
+    width: 160px;
+    height: 40px;
+    
+}
